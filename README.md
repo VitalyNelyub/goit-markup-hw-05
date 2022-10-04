@@ -60,3 +60,151 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+
+  <ul class="gallery-projects list">
+            <li>
+              <a class="gallery-link" href="">
+                <img class="test" src="./imeges/img-portfolio-1.jpg" alt="Компютер" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Технокряк</h2>
+                  <p class="project-item">Веб-сайт</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-2.jpg" alt="Гра в баскетбол" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="project-item">Дизайн</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-3.jpg" alt="Логотип ресторану" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Ресторан Seafood</h2>
+                  <p class="project-item">Додаток</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-4.jpg" alt="Навушники" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Проєкт Prime</h2>
+                  <p class="project-item">Маркетинг</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-5.jpg" alt="Дві коробочки" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Проєкт Boxes</h2>
+                  <p class="project-item">Додаток</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-6.jpg" alt="Монітор компютера" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Inspiration has no Borders</h2>
+                  <p class="project-item">Веб-сайт</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-7.jpg" alt="Книга" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Видання Limited Edition</h2>
+                  <p class="project-item">Дизайн</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-8.jpg" alt="Бірка" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Проєкт LAB</h2>
+                  <p class="project-item">Маркетинг</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+            <li>
+              <a class="gallery-link" href="">
+                <img src="./imeges/img-portfolio-9.jpg" alt="Робота на ноутбуці" width="370" />
+                <div class="project-text">
+                  <h2 class="project-title">Growing Business</h2>
+                  <p class="project-item">Додаток</p>
+                </div>
+              </a>
+              <div class="animation-text">
+                <p>
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все
+                  це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну
+                  особу.
+                </p>
+              </div>
+            </li>
+          </ul>

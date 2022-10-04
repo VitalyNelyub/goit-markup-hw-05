@@ -19,7 +19,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
- }
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -302,6 +302,28 @@ header {
 
 .work-img {
   width: calc((100% - 60px) / 3);
+  position: relative;
+}
+
+.work-text-box {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+}
+
+.work-sub-text {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primaci-bg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
@@ -584,9 +606,10 @@ header {
   flex-wrap: wrap;
 }
 
-.gallery-projects li {
+.projects-card {
   outline: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
+  position: relative;
 }
 
 .gallery-link {
@@ -618,4 +641,22 @@ header {
   columns: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
+}
+
+.animation-text {
+  padding: 63px 24px;
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: var(--primaci-bg-color);
+}
+
+.projects-card:hover .animation-text {
+  display: block;
 }
