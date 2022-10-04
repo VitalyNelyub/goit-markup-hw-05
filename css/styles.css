@@ -97,6 +97,9 @@ button {
 
 header {
   border-bottom: 1px solid #ececec;
+   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-style {
@@ -330,6 +333,9 @@ header {
 .team {
   background-color: var(--bgc-btn);
   padding: 94px 0;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-title {
@@ -470,6 +476,9 @@ header {
 .footer {
   background-color: var(--bg-footer-color);
   padding: 60px 0;
+   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-contacts {
