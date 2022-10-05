@@ -98,7 +98,7 @@ button {
 
 header {
   border-bottom: 1px solid #ececec;
-   max-width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -133,9 +133,8 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: color var(--transition-time)
+  transition: color var(--transition-time);
 }
-
 
 .navigation .nav-link:hover,
 .navigation .nav-link:focus {
@@ -223,10 +222,8 @@ header {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
-  transition: color var(--transition-time), 
-  background-color var(--transition-time);
-  
-  
+  transition: color var(--transition-time), background-color var(--transition-time);
+
   /* transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
@@ -417,8 +414,7 @@ header {
   justify-content: center;
   color: #afb1b8;
 
-  transition: color var(--transition-time), 
-  background-color var(--transition-time);
+  transition: color var(--transition-time), background-color var(--transition-time);
 }
 
 .team-soc-ikon {
@@ -474,8 +470,7 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 
-  transition: color var(--transition-time), 
-  border-color var(--transition-time);
+  transition: color var(--transition-time), border-color var(--transition-time);
 }
 
 .partner-icon {
@@ -495,7 +490,7 @@ header {
 .footer {
   background-color: var(--bg-footer-color);
   padding: 60px 0;
-   max-width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -589,7 +584,7 @@ header {
   justify-content: center;
   color: var(--primaci-bg-color);
 
-   transition: background-color var(--transition-time);
+  transition: background-color var(--transition-time);
 }
 
 .footer-soc-icon {
@@ -625,9 +620,8 @@ header {
   cursor: pointer;
   letter-spacing: 0.03em;
   padding: 6px 22px;
-  
-  transition: background-color var(--transition-time), 
-  color var(--transition-time),
+
+  transition: background-color var(--transition-time), color var(--transition-time),
   box-shadow var(--transition-time);
 }
 
@@ -647,7 +641,6 @@ header {
 .projects-card {
   outline: 1px solid #eeeeee;
   width: calc((100% - 60px) / 3);
-  position: relative;
 }
 
 .gallery-link {
@@ -682,20 +675,28 @@ header {
   line-height: 1.88;
 }
 
+.gallery-animation {
+  position: relative;
+  overflow: hidden;
+}
+
 .animation-text {
-  padding: 63px 24px;
   position: absolute;
-  display: none;
+  top: 0;
   left: 0;
-  top: 70%;
   width: 100%;
+  height: 100%;
+  padding: 63px 24px;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-  background-color: rgba(33, 150, 243, 0.9);
   color: var(--primaci-bg-color);
+  background: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  transition: transform var(--transition-time);
 }
 
-.projects-card:hover .animation-text {
-  display: block;
+.gallery-link:hover .animation-text {
+  transform: translateY(0%);
 }
+
