@@ -286,6 +286,7 @@ header {
 
 .backdrop.is-hidden {
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
@@ -297,7 +298,6 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
   width: 528px;
   height: 581px;
   background-color: #fff;
@@ -306,7 +306,6 @@ header {
 }
 
 .modal-btn {
-  /* display: block; */
   margin-top: 8px;
   margin-right: 8px;
   width: 30px;
