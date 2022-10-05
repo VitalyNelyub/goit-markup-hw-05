@@ -271,6 +271,51 @@ header {
   background-color: var(--bgc-btn);
 }
 
+/* Backdrop */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  transition: opacity var(--transition-time);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: scaleY(0) translate(-50%, -50%);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  width: 528px;
+  height: 581px;
+  background-color: #fff;
+  transform: scaleY(1) translate(-50%, -50%);
+  transition: transform var(--transition-time);
+}
+
+.modal-btn {
+  /* display: block; */
+  margin-top: 8px;
+  margin-right: 8px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../imeges/close.svg);
+  background-color: transparent;
+  margin-left: auto;
+}
+
 /* Міркування */
 .mind-page {
   padding-top: 94px;

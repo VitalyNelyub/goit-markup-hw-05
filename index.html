@@ -61,7 +61,12 @@
       <section class="hero">
         <div class="hero-page container">
           <h1 class="hero-head">Ефективні рішення для вашого бізнесу</h1>
-          <button class="hero-btn" type="button">Замовити послугу</button>
+          <button class="hero-btn" type="button" data-modal-open>Замовити послугу</button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button class="modal-btn" data-modal-close></button>
+          </div>
         </div>
       </section>
       <!--Список корисних міркувань-->
@@ -102,7 +107,7 @@
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work-list list">
             <li class="work-img">
-              <img src="./imeges/box-1-min.jpg" alt="верстка"/>
+              <img src="./imeges/box-1-min.jpg" alt="верстка" />
               <div class="work-text-box">
                 <p class="work-sub-text">Десктопні додатки</p>
               </div>
@@ -417,5 +422,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
