@@ -286,7 +286,6 @@ header {
 
 .backdrop.is-hidden {
   opacity: 0;
-  visibility: hidden;
   pointer-events: none;
 }
 
@@ -306,14 +305,20 @@ header {
 }
 
 .modal-btn {
-  margin-top: 8px;
-  margin-right: 8px;
   width: 30px;
   height: 30px;
-  background-image: url(../imeges/close.svg);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   background-color: transparent;
-  margin-left: auto;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
+
 
 /* Міркування */
 .mind-page {
