@@ -768,6 +768,7 @@ header {
   transition: transform var(--transition-time);
 }
 
-.gallery-link:hover .animation-text {
+.gallery-link:hover .animation-text,
+.gallery-link:focus .animation-text {
   transform: translateY(0%);
 }
